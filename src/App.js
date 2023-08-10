@@ -1,15 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Title from './Title';
+import Boton from './Button';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola desde mi nueva aplicación de React
-        </p>
+        <Title />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <Boton />
       </header>
     </div>
   );
